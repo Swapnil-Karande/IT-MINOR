@@ -1,0 +1,32 @@
+Lab Assignment to be implemented
+Implement the following and submit as Lab assignment:
+
+1. Propose an enhanced registration process for a web application that includes CAPTCHA integration. How would you integrate this feature into the existing user flow to prevent spam and fake registrations?
+
+2.  Objective: Implement a menu-driven web application to perform CRUD (Create, Read, Update, Delete) operations on a MongoDB collection called BANK using Express, Mongoose, and client-side JavaScript.
+
+Task:
+
+Set up an Express server to handle CRUD operations for a MongoDB collection named BANK. Each item in the collection should have the following fields: name, password, and balance.
+
+Create a Mongoose schema for the BANK collection, defining the fields with appropriate data types.
+
+Implement POST functionality to allow the creation of new items in the BANK collection. Ensure that the server can accept and store the new item's data when submitted from a form on the front-end.
+
+Design an HTML file (index.html) that includes:
+
+A form for adding a new bank account, with input fields for name, password, and balance.
+JavaScript code that sends the form data to the server using an AJAX request to create the new item in the BANK collection.
+Instructions:
+
+Define the server.js file that connects to MongoDB and sets up the Express server.
+Create the Mongoose model in bankModel.js for interacting with the BANK collection.
+Define the POST route in bankRoutes.js to handle adding new items to the BANK collection.
+Write client-side JavaScript in index.html to submit the form and display the result.
+Deliverables:
+
+Submit the following files:
+server.js (Express server setup)
+bankModel.js (Mongoose schema for BANK collection)
+bankRoutes.js (CRUD route handling)
+index.html (Front-end form and JavaScript for data submission)
